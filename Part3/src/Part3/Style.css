@@ -1,0 +1,44 @@
+body {
+	font-family: "Times New Roman", Times, serif;
+	margin: 0;
+	padding: 0;
+	background-color: #C9C1C1;
+}
+
+.container {
+	width: 50%;
+	margin: auto;
+	padding: 20px;
+	background-color: aliceblue;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	font-family: "Times New Roman", Times, serif;
+	color: #333;
+}
+
+label {
+	font-family: "Courier New", Monospace;
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"] {
+	width: 20%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-family: "Courier New", Monospace;
+}
+
+button {
+	padding: 10px 20px;
+	background-color: #98AFC7;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}

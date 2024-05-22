@@ -1,0 +1,153 @@
+* {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+}
+
+#footer {
+	text-align: center;
+	position: static;
+	padding: 10px 10px 0px 10px;
+	bottom: 0;
+	width: 100%;
+	height: 5px;
+	background: #a7b0d5;
+}
+
+/* setting up the overall body style */
+body {
+	font-family: Arial, sans-serif;
+	margin: 20px;
+	background-color: #a7b0d5;
+
+	/* background color for the entire page */
+}
+
+/* style for the top title section */
+.title_top {
+
+	font-family: Impact, sans-serif;
+	font-size: 24px;
+	color: rgb(2, 0, 8);
+	text-align: center;
+
+}
+
+/* color style main title in box */
+.main-title {
+	color: rgb(10, 10, 10);
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+/* style for color main title in box */
+.main-title2 {
+	color: rgb(2, 5, 184);
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+
+}
+
+/* style for the boxes containing content */
+.box {
+	border: 5px inset #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-style: double;
+
+}
+
+
+/* style for images within boxes */
+.box img {
+	max-width: 100%;
+	height: auto;
+
+}
+
+/* style for the highlighted text in title */
+.blue-mark {
+	background-color: lightsteelblue;
+	color: #4C3E4F;
+	padding: 2px;
+}
+
+
+/* style for the card elements with student info */
+
+.card {
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px #4C3E4F;
+	text-align: center;
+	max-width: 600px;
+	margin: 20px;
+}
+
+/* style for the container of h2 elements */
+h1 {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+}
+
+.nav {
+	padding-right: 20px;
+	text-align: center;
+	align-items: center;
+
+}
+
+nav a {
+	padding: 20px;
+	text-align: center;
+	align-items: center;
+	background-color: #896F8F;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 30px;
+	color: white;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+
+
+
+}
+
+nav a:hover {
+	color: #4C3E4F;
+	scale: 1.06;
+}
+
+h1:hover {
+	color: #4C3E4F;
+	scale: 1.06;
+}
+
+header {
+	text-align: center;
+}
+
+#pic {
+	border-radius: 10px;
+}
+
+img {
+	float: right;
+	border-radius: 30px;
+	box-shadow: 8px 8px 18px grey;
+	margin-right: 30px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+img:hover {
+	scale: 1.06;
+}
